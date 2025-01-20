@@ -1,0 +1,45 @@
+.container {
+    padding: 20px;
+    text-align: center;
+    background-color: var(--bg-color); /* Theme-based background */
+    color: var(--text-color); /* Theme-based text color */
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: var(--title-color); /* Theme-based title color */
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .item {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  .bullet {
+    font-size: 2rem;
+    margin-right: 15px;
+    line-height: 1.5;
+  }
+  
+  .certName {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .details {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
